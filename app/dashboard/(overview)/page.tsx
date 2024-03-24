@@ -9,7 +9,11 @@ import {
   RevenueChartSkeleton,
 } from '@/app/ui/skeletons';
 
-import { fetchCardData } from '../../lib/data';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Home',
+};
 
 export default async function Page() {
   return (
